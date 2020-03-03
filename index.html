@@ -1,30 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Bio</title>
+  <meta charset="UTF-8">
+  <title>CSS Stylesheets with Relative Paths</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
+  <header>
     <h1>Student Bio</h1>
-    <h2>Shaidee Alingcastre</h2>
-    <img src="http://placekitten.com/200/300" alt="Kitten" style="border: 5px groove gold;">
-    <p style="width: 60%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et erat vulputate, ultricies eros eget, vulputate turpis. Nam euismod faucibus ex, eu fermentum lorem pretium et. Donec aliquet dui eu lectus interdum, vel porttitor elit rutrum. Morbi eget ligula quis orci consectetur aliquam. Cras mollis magna ac lacus eleifend, eget pharetra enim iaculis.</p>
-    
-    <h2>Contact Info</h2>
-    <ul>
-        <li>
-            <strong>Email:</strong>
-            <a href="#">shaidee.alingcastre@gmail.com</a>
-        </li>
-        <li>
-            <strong>Github:</strong>
-            <a href="https://github.com/" target="_blank">sali6798</a>
-        </li>
-        <li>
-            <strong>Portfolio:</strong>
-            <a href="#">coming soon</a>
-        </li>
-    </ul>
+  </header>
+
+  <div class="container">
+
+    <section id="main-bio">
+
+      <h2>Shaidee Alingcastre</h2>
+
+      <img id="bio-image" src="http://placekitten.com/200/300" alt="Kitten">
+
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sint officia accusantium dolores laudantium eveniet animi aut iste, libero quas obcaecati officiis qui dicta magnam ea minima neque ad explicabo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus numquam esse eligendi quam explicabo ipsa nulla voluptatum a sunt libero vel doloribus dolorum ad illum autem, eveniet nemo accusamus voluptatem?</p>
+    </section>
+
+    <section id="contact-info">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
+        <li><strong>Github:</strong> <a href="https://github.com/" target="_blank">sali6798</a></li>
+        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+      </ul>
+    </section>
+  </div>
+
 </body>
+
 </html>
